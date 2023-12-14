@@ -1,3 +1,335 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
 body{
     background-color: pink;
+    background-image: linear-gradient(to right, pink, white);
 }
+#project-body{
+    height: auto;
+    margin-bottom: 100px;
+}
+#homepage-image{
+    width: 1100px;
+    height: 980px;  
+}
+#project-footer{
+    margin-top: 45%;
+}
+#main{
+    display: inline-flex;
+    height: 100%;
+    width: 98%;
+    margin-bottom: -3px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50em;
+  }
+  img {
+    margin-bottom: -22em;
+    border-radius: 5%;
+  }
+  #caption{
+    color: rgb(27, 2, 95);
+    font-size: 60px;
+    font-weight: 600px;
+    font-style: italic;
+    padding: 5px;
+  }
+  #profile-caption{
+    margin-top: 350px;
+    color:rgb(6, 18, 26);
+    font-size: 20px;
+
+  }
+.login-page h1{
+    color: rgb(108, 19, 19); 
+    width: 500px;
+    margin-top: 200px;
+}
+
+#contact-form{
+    border: 2px solid #f1f1f1;
+    margin-top: 10px;
+}
+.contact-page h1{
+    color: rgb(108, 19, 19); 
+    width: 500px;
+    margin-top: 50px;
+}
+
+input[type=text], input[type=number] {
+    width: 95%;
+    padding: 17px 25px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 4em;
+  }
+
+  #submit {
+    background-color: #8e959d;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+  }
+  #submit:hover {
+    opacity: 0.7;
+  }
+  form{
+    border: 3px solid #f1f1f1;
+    margin-top: 50px;
+}
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 17px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 6em;
+  }
+
+  #submit {
+    background-color: #8e959d;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+  }
+  #submit:hover {
+    opacity: 0.8;
+  }
+  
+#nav{
+    width: 100%;
+    height: auto;
+    float: right;
+    padding: 0.2em;
+    text-align: right;
+    border-radius: 1.2em;
+}
+nav{
+    height: 40%;
+    padding: 1em;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, black, grey);
+    opacity: 82%;
+}
+    
+nav li{
+    margin: 0.5%;
+    /*border: 15px solid black;*/
+    list-style-type: none;
+    text-align: center; 
+    display: inline-block;   
+}
+nav a{
+    border: 10px solid white;
+    border-radius: 20%;
+    text-decoration: none;
+    color:rgb(230, 33, 33);
+    background-color: white;
+    font-weight: 900; 
+    font-size: 20px;
+    width: 20%;
+    opacity: 1;  
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    padding: 0.1em;  
+    max-height: 1000;
+}
+#mypicture{
+    width: 700px;
+    height:900px;
+    
+}
+#profile-info{
+    width: 1200px;
+    height: 1000px;
+    float: right;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#profile p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    color: rgb(76, 76, 150);
+}
+
+#profile h2{
+    color: rgb(171, 40, 171);
+    background-color: rgba(255, 255, 255, 0.612);
+    width: 310px;
+    border-radius: 90px 70px;
+    padding-bottom: 1.5em;
+    padding-top: 0.8em;
+    padding-left: 0.7em;
+    height: 1px;
+}
+.updates{
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    position: relative;
+    bottom: 3em;
+    border-radius: 1.5em;
+    background-image: linear-gradient(to right, pink,rgb(175, 166, 175) );
+    
+}
+#articles{
+    width: 45%;
+    float: left;
+    margin-right: 0.2%;
+    /*background-color: rgb(246, 120, 120);*/
+    background-image: linear-gradient(to right, pink, grey);
+    border: 1px solid rgb(110, 160, 160);
+    border-radius: 1em;   
+}
+#news{
+    background-color: rgb(227, 200, 220);
+    width: 55%;
+    text-align: left;
+    border: 1px solid rgb(160, 195, 195);
+    border-radius: 1em; 
+    background-image: linear-gradient(to left, pink, grey);   
+}
+h2{
+    color: rgb(24, 3, 66);
+    font-weight: 1000px;
+    height: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3{
+    color: rgb(107, 95, 64);
+    font-weight: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.login-page{
+    height: 1000px;
+    width: 900px;
+    margin-bottom: 5px;
+}
+
+.contact{
+    position: relative;
+    top: 40px;
+    display: inline-flex;
+    width: 99%;
+    height: 20%;
+    padding: 0.3em;
+    bottom: 28em;  
+    margin: 01px;
+    border: 1px solid grey;
+    border-radius: 1em;
+    background-color: white;
+    background-image: linear-gradient(to left, rgb(243, 236, 237), grey);
+    text-align: left;
+}
+
+.contact div{
+    margin-right: 180px;
+}
+.contact img{
+    height: 40px;
+    width: 50px;
+    margin-right: 10px;
+}
+#address{
+    padding: 3em;
+    color: white;
+    font-weight: 600px;
+    height: 30px;
+    margin-top: 0.2em;
+}
+
+#contacts{
+    margin-top: 4em;
+    height: 200px;
+}
+
+#contacts a{
+    line-height: 40px;
+    color: white;
+    font-weight: 200px;
+}
+#social-media{
+    margin-top: -15em;
+    height: 50px;
+
+}
+#copyright{
+    margin-top: 7em;
+    height: 200px;
+    color:white;
+    font-size: 14px;
+}
+
+.projects{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: stretch;
+    bottom:120px;
+  }
+  .projects > div {
+    background-color: rgb(110, 110, 109);
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -30px;
+    padding: 20px;
+    font-size: 30px;
+    width: 500px;
+    height: 300px;
+  }
+  #project-nav{
+    width: 100%;
+    float: right;
+    padding: 0.2em;
+    text-align: right;
+    border-radius: 1.2em;
+    margin-top: -840px;
+}
+span{
+    display: inline-block;
+    margin-left: 50px;
+}
+.register-page input{
+    height: 60px;
+    margin-bottom: 5px;
+}
+#age{
+    margin-bottom: 20px;
+}
+#submit-reset{
+    margin-left: -50px;
+    height: 5%;
+    text-align: left;
+}
+
+
+    
+
+  
+  

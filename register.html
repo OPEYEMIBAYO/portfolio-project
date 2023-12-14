@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./portfolioCss.css">
+        <script src="./portfolioJava.js" type="text/javascript"></script>
+    </head>
+    <header>
+        <title>Portfolio Website</title>
+    </header>
+    <body id="home-page">
+        <div id="nav">
+            <nav>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Who I am</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./contact.html">Talk to us</a></li>
+                <li><a href="./register.html">Membership</a></li>
+            </nav>
+        </div>
+        <div id="main">
+            <figure>
+                <img src="./portfolioMedia/image/Homebackground.jpg" alt="IT image" id="homepage-image">
+                <figcaption id="caption">IT Innovations by Opeyemi</figcaption>
+            </figure>
+        
+            <section class="register-page">
+            <h1><em>Register here!</em></h1>
+            <form action="" method="Post" id="contact-form">
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Firstname" required>
+                <br>
+                <label for="Surname">Surname:</label>
+                <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                <br>
+                <label for="phonenumber">Phone Number:</label>
+                <input type="number" name="phonenumber" id="phonenumber" placeholder="+44" required>
+                <br>
+                <label for="postcode">Postcode:</label>
+                <input type="text" name="postcode" id="postcode" required>
+                <br>
+                <label for="gender">Gender:</label>
+                <div id="span">
+                    <span>
+                        <p>Female</p>
+                    </span>
+                    <input type="radio" name="gender" id="female" required>
+                    <span>
+                        <p>Male</p>
+                    </span>
+                    <input type="radio" name="gender" id="male" required>
+                </div>
+                <br>
+
+                <label for="age">Age Range:</label>
+                <select name="age" id="age">
+                    <option value="Below 18 Years">Below 18 Years</option>
+                    <option value="18-29 Years">18-29 Years</option>
+                    <option value="30-49 Years">30-49 Years</option>
+                    <option value="50-69 Years">50-69 Years</option>
+                    <option value="70 Years and Above">70 Years and Above</option>
+                </select>
+                <br>
+                <label for="username">Create Account Username:</label>
+                <input type="text" name="username" id="username" placeholder="abcd@mail.com" required>
+                <br>
+                <label for="password">Create Password:</label>
+                <input type="password" name="password" id="password" value="Enter your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" maxlength="12">
+                <br>
+                <label for="password-confirm">Confirm Password:</label>
+                <input type="password" name="password-confirm" id="password-confirm" value="Re-enter your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" minlength="8" maxlength="12">
+                <br>
+                <div id="submit-reset">
+                    <span>
+                        <input type="submit" value="Proceed to Submit" id="submit">
+                    </span>
+                    <span>
+                        <input type="submit" value="Reset" id="Reset">
+                    </span>
+                        
+                </div>
+                
+         </form >
+        </div>
+        
+    </body>
+    <footer>
+        <div class="contact">
+            <div id="address">
+                <h4>Contact Us:</h4>
+                <Address><p>Address<br>35 Michaelmas Court <br> GL1 3HX</p></Address>
+                <br>
+            </div>
+            <div id="contacts">
+                <a href="Email:boluwadeopeyemi@gmail.com">Email: boluwadeopeyemi@gmail.com</a>
+                <br>
+                <a href="tel:6031112298">Phone No.: 07716529875</a>
+                <br>
+            </div>
+            <div id ="social-media">
+                <a href="https://en-gb.facebook.com/" target="_blank"><img src="./portfolioMedia/image/facebookLogo.jpg"  alt="facebook Logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./portfolioMedia/image/InstagramLogo.jpg"  alt="Instagram Logo"></a>
+                <a href="https://www.tiktok.com/login/" target="_blank"><img src="./portfolioMedia/image/tiktokLogo.jpg"  alt="tiktok Logo"></a>
+                <a href="https:// https://www.linkedin.com/feed/" target="_blank"><img src="./portfolioMedia/image/linkedIn.jpg"  alt="linkedIn Logo"></a>
+            </div>
+            <div id="copyright"><p>© Copyright</p></div>
+        </div>
+        
+    </footer>
+</html>
